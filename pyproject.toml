@@ -7,7 +7,10 @@ authors = [
     { name = "Vivek Tyagi", email = "vivektyagi48@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain-core>=1.6.12",
+    "pydantic-settings>=2.16.1",
+]
 
 [project.scripts]
 selft-meridian-ai-learner = "selft_meridian_ai_learner:main"
